@@ -2,12 +2,12 @@ ALGORITHM read_a_sentence
 VAR
     c: char;
     v,w,l : INTEGER;
-    vow : ARRAY_OF char[12];
+    vow : ARRAY_OF char[10];
 BEGIN
     l := 0;
     w := 1;
     v := 0;
-    vow := ['A','a','E','e','I','i','O','o','U','u','Y','y'];
+    vow := ['A','a','E','e','I','i','O','o','U','u'];
     REPEAT
       read(c);
       IF (c= ' ') THEN
